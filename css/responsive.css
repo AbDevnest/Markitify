@@ -1,0 +1,183 @@
+@media (max-width: 992px) {
+  .hero {
+    padding: 100px 0;
+    text-align: center;
+  }
+
+  .hero-content p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-actions {
+    justify-content: center;
+  }
+
+  .client-logo {
+    max-width: 100px;
+  }
+
+  .about-content {
+    text-align: center;
+    margin: auto;
+  }
+
+  .stat-item {
+    padding: 30px 15px;
+  }
+
+  .stat-item h2 {
+    font-size: 30px;
+  }
+
+  .stat-item p {
+    font-size: 14px;
+  }
+
+  .service-item {
+    padding: 20px;
+  }
+
+  .feature-content {
+    text-align: center;
+  }
+
+  .pricing-card.active {
+    transform: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 100px 0px !important;
+  }
+
+  .section {
+    padding: 50px 0;
+  }
+
+  .section-heading {
+    font-size: 26px;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+
+  .para {
+    font-size: 14px;
+  }
+
+  .btn {
+    padding: 10px 18px;
+    font-size: 14px;
+  }
+
+  .nav {
+    position: absolute;
+    top: 75px;
+    left: 0;
+    width: 100%;
+    background: var(--white);
+    padding: 25px 0;
+    display: none;
+  }
+
+  .nav.active {
+    display: block;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .team-img-wrapper img {
+    height: 240px;
+  }
+
+  .cta-title {
+    font-size: 26px;
+  }
+
+  .cta-overlay {
+    padding: 70px 15px;
+  }
+
+  .carousel-control-prev {
+    left: 0;
+  }
+
+  .carousel-control-next {
+    right: 0;
+  }
+
+  .testimonial-card {
+    padding: 20px;
+  }
+
+  .blog-img img {
+    height: 200px;
+  }
+
+  .section-padding {
+    padding: 50px 0;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  .footer-social {
+    justify-content: center;
+  }
+
+  .portfolio-card img {
+    height: 180px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-content h1 {
+    font-size: 30px;
+  }
+
+  .hero-content p {
+    font-size: 15px;
+  }
+
+  .btn,
+  .btn-outline {
+    width: 100%;
+    text-align: center;
+  }
+
+  .client-logo {
+    max-width: 80px;
+  }
+
+  .about-content h2 {
+    font-size: 26px;
+  }
+
+  .about-card {
+    padding: 20px;
+  }
+
+  .service-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .service-item i {
+    margin: auto;
+  }
+
+  .feature-content h3 {
+    font-size: 22px;
+  }
+  .portfolio-card img {
+    height: 150px;
+  }
+}
